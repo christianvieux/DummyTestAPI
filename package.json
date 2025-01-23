@@ -6,7 +6,6 @@
   "scripts": {
     "start": "node index.js"
   },
-  "keywords": [],
   "dependencies": {
     "express": "^4.19.2"
   }
