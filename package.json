@@ -1,12 +1,21 @@
 {
-  "name": "test-api",
+  "name": "test",
   "version": "1.0.0",
-  "type": "module",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "init": "npm install && npm run start",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "jest"
   },
+  "keywords": [],
+  "author": "Christian V",
+  "license": "ISC",
   "dependencies": {
     "express": "^4.19.2"
+  },
+  "description": "",
+  "devDependencies": {
   }
 }
